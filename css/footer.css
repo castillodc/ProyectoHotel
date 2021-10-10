@@ -7,10 +7,11 @@
 }
 
 footer{
+    padding-top:30px;
     position: relative;
     bottom:0;
     width:100%;
-    height:180px;
+    height:200px;
     background-color: #4D4D4D;
 }
 
@@ -31,7 +32,17 @@ footer section nav li{
     margin:10px;
 }
 
+footer section nav li img{
+    width: 40px;
+}
+
 footer section p{
-    font-size:14px;
+    font-size:12px;
     margin-top:20px;
+}
+
+/*efectos*/
+
+footer section nav li img:hover{
+    scale:();
 }
